@@ -4,6 +4,12 @@
     border-bottom: 2px solid #f11818;
 }
 
+/* toggler for small screens */
+.navbar-light .navbar-toggler{
+    border-color: transparent;
+    outline-color: #eee
+}
+
 /* dropdown */
 .dropdown-menu{
     border:none;
