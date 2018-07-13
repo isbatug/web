@@ -1,5 +1,7 @@
-// nav
+
 $(document).ready(function() {
+
+  // navbar animation
   if ($(window).scrollTop() > 50 && $(window).width() > 767) {
     $("body").addClass("fixed-header-on");
   } else {
@@ -13,6 +15,11 @@ $(document).ready(function() {
       $("body").removeClass("fixed-header-on");
     }
   });
+
+
+  // Initialize wow
+  new WOW().init();
+
 });
 
 // home video

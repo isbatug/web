@@ -12,6 +12,14 @@ body {
   background-color: #db3939 !important;
 }
 
+.b-primary {
+  border: 1px solid #e9ecef !important;
+}
+
+.br-primary {
+  border-radius: 0.25rem;
+}
+
 .primary {
   color: #f11818 !important;
 }
@@ -26,6 +34,10 @@ body {
 
 .elevated {
   box-shadow: 2px 6px 35px 0px #e7e4e4;
+}
+
+.lower-elevated {
+  box-shadow: -2px 7px 7px 0px #f1f0f0;
 }
 
 .main-nav {
@@ -158,18 +170,20 @@ body {
   margin: 0 5px;
 }
 
-/* Featurettes
-------------------------- */
-
 .featurette-divider {
   margin: 5rem 0;
 }
 
-/* Thin out the team headings */
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -0.05rem;
+}
+
+.review {
+  box-shadow: -4px 11px 8px 0px #f1f0f0;
+  border-radius: 0.25rem;
+  border: 1px solid #e9ecef !important;
 }
 
 /* RESPONSIVE CSS
